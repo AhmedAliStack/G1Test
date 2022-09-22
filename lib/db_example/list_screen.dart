@@ -17,7 +17,7 @@ class _ListScreenState extends State<ListScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Container(width: 200.w,height: 200.h,
+          SizedBox(width: 200.w,height: 200.h,
             child: Center(child: Text("welcome_to".tr(),)),
           ),
           ElevatedButton(onPressed: (){
